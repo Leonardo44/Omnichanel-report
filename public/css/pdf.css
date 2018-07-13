@@ -1,0 +1,41 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+table{ 
+    border-collapse: collapse; 
+    width: 100%;
+    text-align: center;
+}
+
+table, th, td{ border: 1px solid black; }
+
+table thead{
+    /*background-color: #e64a19 !important;*/
+}
+
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.PDF_header .logo{
+    width: 15%;
+    float: left;
+    position: relative;
+}
+.PDF_header .logo img{
+    width: 100%;
+    height: 100%;
+    margin-top: -5%;
+}
+.PDF_header .info .title{
+    text-align: center;
+    font-size: 30px;
+    margin-left: -10%;
+}
+
+th{
+    color: white;
+}
